@@ -1,0 +1,35 @@
+[disabled] {
+    opacity: 0.6;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-element {
+    margin-bottom: 10px;
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+}
+
+.form-submit {
+    min-width: 120px;
+    padding: 10px;
+    cursor: pointer;
+    color: #3c763d;
+    border: none;
+    border-color: #d0e9c6;
+    background-color: #dff0d8;
+    transition: all 0.15s ease-in;
+}
+
+.form-submit[disabled] {
+    cursor: not-allowed;
+}
